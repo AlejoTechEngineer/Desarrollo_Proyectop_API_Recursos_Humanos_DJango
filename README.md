@@ -49,6 +49,25 @@ Este sistema proporciona una API RESTful basada en Django para la gestión de em
 
 ---
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[python -m venv env] --> B[pip install -r requirements.txt]
+    B --> C[Configurar variables de entorno y DB]
+    C --> D[python manage.py migrate]
+    D --> E[python manage.py runserver]
+    E --> F[API activa en localhost:8000]
+    F --> G[Swagger UI - /swagger/]
+    G --> H{Operacion}
+    H --> I[Empleados - models.py / views.py]
+    H --> J[Departamentos - models.py / views.py]
+    H --> K[Historial Salarial - models.py / views.py]
+    I & J & K --> L[mi_hv_app/urls.py]
+    L --> M[(db.sqlite3 / PostgreSQL)]
+    M --> N[Respuesta JSON + Token Auth]
+```
+
 ## Autor
 
 **Alejandro De Mendoza**  
