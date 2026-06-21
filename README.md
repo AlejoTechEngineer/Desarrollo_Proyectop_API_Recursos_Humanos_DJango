@@ -1,6 +1,13 @@
+<div align="center">
+
 # 📌 DESARROLLO PROYECTO API RECURSOS HUMANOS DJANGO  
 
-## 📖 Descripción  
+## 📖 Descripción
+
+</div>
+
+---
+
 Este sistema proporciona una API RESTful basada en Django para la gestión de empleados, departamentos y salarios dentro de una empresa.
 
 ## 🛠️ Funcionalidades  
@@ -39,3 +46,12 @@ Este sistema proporciona una API RESTful basada en Django para la gestión de em
 
 ## 📌 Autor  
 👨‍💻 **Alejandro De Mendoza**
+
+---
+
+## Autor
+
+**Alejandro De Mendoza**  
+Ingeniero Informático · Especialista en IA · Especialista en Ingeniería de Software · Máster en Arquitectura de Software
+
+[![GitHub](https://img.shields.io/badge/GitHub-AlejoTechEngineer-181717?style=for-the-badge&logo=github)](https://github.com/AlejoTechEngineer)
